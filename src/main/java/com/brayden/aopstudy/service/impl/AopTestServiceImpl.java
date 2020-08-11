@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 public class AopTestServiceImpl implements AopTestService {
     @Override
     public void aopTest() {
+
         System.out.println("我是业务测试1");
     }
 
